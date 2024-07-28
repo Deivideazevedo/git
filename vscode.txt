@@ -1,0 +1,19 @@
+# POINT - Para configurar o Git para abrir o VS Code para resolver conflitos de merge
+
+    # Configurar VS Code como o editor padrão do Git:
+        git config --global core.editor "code --wait"
+
+    # Configurar VS Code como a ferramenta de merge do Git:
+        git config --global merge.tool vscode
+        git config --global mergetool.vscode.cmd "code --wait \$MERGED"
+
+        git config --global diff.tool vscode
+        git config --global difftool.vscode.cmd "code --wait --diff \$LOCAL \$REMOTE"
+
+    # Quando houver conflitos de merge, use:
+        git mergetool BRANCH -- caminho/do/arquivo ( -- caminho/do/arquivo É opcional)
+    
+    # Quando quiser ver as diferenças, use:
+        git difftool COMMIT1 COMMIT2 -- caminho/do/arquivo
+
+=======================================================================================

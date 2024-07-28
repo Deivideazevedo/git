@@ -1,0 +1,86 @@
+# POINT - Comandos básicos
+    # Inciando um repositorio git:
+        git init
+    
+    # Removendo repositorio git:
+        rm -rf .git
+        
+    # Adicionar arquivo ou arquivos ao rastreamento:
+        git add <file.extensao> ou . (para todos)
+    
+    # Commitando arquivos rastreados
+        git commit -m "Sua mensagem" ou git commmit
+        
+    # remove todos os arquivos nao comitados
+        git reset <commit\branch>(opcional) --hard (opcional)
+    
+    # Enviando commits para o repositório remoto (configure primeiro)
+        git push
+    
+    # Trazendo commits do repositorio remota (configure primeiro)
+        git pull
+
+    # Visualizar commits
+        git log
+            ou
+        git log --oneline
+
+    # Mudar para branch\commit
+        git checkout <commit\branch>
+
+
+=======================================================================================
+
+# POINT - Configurando repositorio remoto:
+
+    git remote add origin https://github.com/usuario/nome-do-repositorio.git
+
+    # Ainda em repositorio remoto execute apenas uma vez:
+        git push -u origin main
+        # e depois disso é so: git push, pq geralmente é git push orign branch_local
+
+=======================================================================================
+
+# POINT - Clonar repositorio:
+    git clone URL Novo-nome(Opcional) 
+        ou para apenas uma branch
+    git clone URL --branch Nome-da-branch --single-branch
+
+
+=======================================================================================
+
+# POINT - Gitignore
+    # Apos criar o .gitignore, caso o arquivo posto la esteja comitado, usar:
+        git rm --cached caminho/do/arquivo.extensao
+        # e dar um commit
+
+=======================================================================================
+
+# POINT - BRANCH
+
+    # Criação de branch
+        git branch nome-da-nova-branch
+
+    # Criar e acessa ao mesmo tempo:
+        git checkout -b nome-da-nova-branch
+
+    # Remover branch (-d apaga se foi mesclado e -D apaga de qualquer forma)
+        git branch -d nome-da-branch
+
+    # Ver todas as branchs remotas
+        git branch -r
+
+    # Fazer uma nova branch local com base na remota
+        git checkout -b branch-local origin/branch-remota
+
+    # Fazer push de uma nova branch:
+        git push -u origin nome-da-nova-branch
+        # Após isso é so git push
+
+    # Remover branch do remoto
+        git push origin --delete nome-da-branch
+
+=======================================================================================
+
+# REVIEW - EXTRA:
+    site para criação e visualização de markdown: https://readme.so/pt/editor

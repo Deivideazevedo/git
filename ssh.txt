@@ -1,0 +1,42 @@
+# POINT - Verificar Chaves SSH Existentes
+    ls -al ~/.ssh
+
+# POINT - Criar uma Nova Chave SSH
+    ssh-keygen -t ed25519 -C "your_email@example.com"
+            ou se nao for compativel, use:
+    ssh-keygen -t rsa -b 4096 -C "your_email@example.com"
+
+    # coloque uma senha para o ssh apos inserir o email
+
+# POINT -  Pegando a chave SSH publica
+    cat ~/.ssh/id_ed25519.pub
+        # ou
+    cat ~/.ssh/id_rsa.pub
+        # ou para copiar logo
+    cat ~/.ssh/id_ed25519.pub | clip
+
+# POINT - Adicionar a Chave SSH ao ssh-agent (para nao colocar a senha toda vez) (sempre que reiniciar o pc)
+    # Inicie o ssh-agent em segundo plano:
+        eval "$(ssh-agent -s)"
+
+    # Adicione sua chave SSH ao ssh-agent:
+        ssh-add ~/.ssh/id_ed25519
+            Se Criou uma chave RSA, use:
+        ssh-add ~/.ssh/id_rsa
+
+# POINT - Configurando key no github
+    # Vá para Configurações de SSH e GPG keys na sua conta do GitHub.
+
+    # Clique em "New SSH key" (Nova chave SSH), dê um título à chave e cole a chave SSH na caixa "Key".
+
+    # Clique em "Add SSH key" (Adicionar chave SSH).
+
+# POINT - Testar a Conexão SSH
+    ssh -T git@github.com
+    # depois é confirmar
+
+# POINT - Configurar o Git para Usar a Chave SSH
+    git clone git@github.com:username/repository.git
+
+
+

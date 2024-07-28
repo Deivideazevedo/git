@@ -1,10 +1,20 @@
-# POINT - Comandos básicos
+# POINT - Configurações do git
     # Inciando um repositorio git:
         git init
     
+    # Configurando usuario e email em um repositorio:
+        git config user.name "Seu Nome"
+        git config user.email "seu.email@example.com"
+
+    # Configurando usuario e email globalmente:
+        git config --global user.name "Seu Nome"
+        git config --global user.email "seu.email@example.com"
+    
     # Removendo repositorio git:
         rm -rf .git
-        
+    
+
+# POINT - Comandos básicos
     # Adicionar arquivo ou arquivos ao rastreamento:
         git add <file.extensao> ou . (para todos)
     
@@ -60,6 +70,9 @@
 
     # Criação de branch
         git branch nome-da-nova-branch
+    
+    # Renomear branch
+        git branch -m branch
 
     # Criar e acessa ao mesmo tempo:
         git checkout -b nome-da-nova-branch

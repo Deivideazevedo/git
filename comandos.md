@@ -62,6 +62,11 @@ Acesse a pasta que deseja transformar em um repositório Git  pelo terminal ou c
 
 ### Comandos Básicos
 
+1. #### Verifição de status
+    ```bash
+    git status
+    ```
+
 1. #### Adicionando ao rastramento:
     #### Arquivo especifico
     ```bash
@@ -72,7 +77,7 @@ Acesse a pasta que deseja transformar em um repositório Git  pelo terminal ou c
     git add .
     ```
 
-2. #### Commitando arquivos rastreados
+1. #### Commitando arquivos rastreados
     ```bash
     git commit -m "Sua mensagem" 
     ```
@@ -81,16 +86,16 @@ Acesse a pasta que deseja transformar em um repositório Git  pelo terminal ou c
     git commit 
     ```
 
-3. #### Alterando a mensagem sem abrir o editor:  
+1. #### Alterando a mensagem sem abrir o editor:  
     ```bash
     git commit --amend –m"nova mensagem"
     ```
-4. #### Remove todos os arquivos nao comitados
+1. #### Remove todos os arquivos nao comitados
     
     ```bash
     git reset <commit\branch>(opcional) --hard (opcional)
     ```
-5. #### Arquivar modificações
+1. #### Arquivar modificações
     ```bash
     git stash
     ```

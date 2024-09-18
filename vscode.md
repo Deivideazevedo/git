@@ -2,7 +2,7 @@
     <a href="https://www.dio.me/">
      <img align="center" width="40px" src="https://hermes.digitalinnovation.one/assets/diome/logo-minimized.png">
     </a>
-    <span> Versionamento de Código com Git e Vscode</span>
+    <span> Configuração do Git com Vscode</span>
 </h1>
 
 ## Primeiros Passos

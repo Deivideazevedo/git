@@ -115,7 +115,7 @@ Acesse a pasta que deseja transformar em um repositório Git  pelo terminal ou c
     git push
     ```
     
-2. #### Trazendo commits do repositorio remota (configure primeiro)
+2. #### Trazendo commits do repositorio remoto (configure primeiro)
     ```bash
     git pull
     ```
@@ -169,6 +169,17 @@ Acesse a pasta que deseja transformar em um repositório Git  pelo terminal ou c
     ```bash        
     git branch -r
     ```
+
+1. #### Mesclar branch's
+    #### Estando na branch destino, mescle a branch que você deseja unir:
+    ```bash        
+    git merge <nome-da-branch>
+    ```    
+    #### Mesclar sem criar um novo commit
+    ```bash        
+    git merge --no-commit <nome-da-branch>
+    ```
+    
 
 1. #### Fazer uma nova branch local com base na remota
     ```bash        

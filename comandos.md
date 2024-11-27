@@ -33,10 +33,10 @@ Acesse a pasta que deseja transformar em um repositório Git  pelo terminal ou c
     ```
     #### Globalmente
     ```bash
-    git config user.name "Seu Nome"
+    git config --global user.name "Seu Nome"
     ```
     ```bash
-    git config user.email "seu.email@example.com"
+    git config --global user.email "seu.email@example.com"
     ```
 
 3. #### Conecte o repositório local com o repositório remoto:

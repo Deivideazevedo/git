@@ -58,6 +58,22 @@ Acesse a pasta que deseja transformar em um repositório Git  pelo terminal ou c
     git clone URL --branch Nome-da-branch --single-branch
     ```
     
+5. #### Sugestão do githu ao criar um novo repositório:
+   #### …ou crie um novo repositório na linha de comando
+   ```bash
+    git init
+    git add README.md
+    git commit -m "first commit"
+    git branch -M main
+    git remote add origin git@github.com:seuRepositorio.git
+    git push -u origin main
+    ```
+   #### …ou envie um repositório existente a partir da linha de comando
+   ```bash
+    git remote add origin git@github.com:seuRepositorio.git
+    git branch -M main
+    git push -u origin main
+    ```
     
 
 ### Comandos Básicos

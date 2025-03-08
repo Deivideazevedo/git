@@ -27,7 +27,7 @@ Repositório para um breve resumo de comandos do Git e Github e algumas configur
       <td>01</td>
       <td>Versionamento de Código com Git e GitHub</td>
       <td align="center">
-        <a href=https://github.com/Deivideazevedo/git/blob/main/comandos.md">
+        <a href="https://github.com/Deivideazevedo/git/blob/main/comandos.md">
            <img align="center" alt="Material de Apoio" src="https://img.shields.io/badge/Ver%20Material-30A3DC?style=for-the-badge">
         </a>
       </td>

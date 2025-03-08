@@ -27,7 +27,7 @@ Repositório para um breve resumo de comandos do Git e Github e algumas configur
       <td>01</td>
       <td>Versionamento de Código com Git e GitHub</td>
       <td align="center">
-        <a href="https://github.com/elidianaandrade/dio-curso-git-github/blob/main/materiais-de-apoio/01-visao-geral-do-curso-e-ferramentas.md">
+        <a href=https://github.com/Deivideazevedo/git/blob/main/comandos.md">
            <img align="center" alt="Material de Apoio" src="https://img.shields.io/badge/Ver%20Material-30A3DC?style=for-the-badge">
         </a>
       </td>
@@ -36,7 +36,7 @@ Repositório para um breve resumo de comandos do Git e Github e algumas configur
       <td>02</td>
       <td>Configuração do Git com vscode</td>
       <td align="center">
-        <a href="https://github.com/elidianaandrade/dio-curso-git-github/blob/main/materiais-de-apoio/02-instalacao-configuracao-e-autenticacao.md">
+        <a href="https://github.com/Deivideazevedo/git/blob/main/vscode.md">
            <img align="center" alt="Material de Apoio" src="https://img.shields.io/badge/Ver%20Material-E94D5F?style=for-the-badge">
         </a>
       </td>
@@ -45,7 +45,7 @@ Repositório para um breve resumo de comandos do Git e Github e algumas configur
       <td>03</td>
       <td>Criação de chave SSH</td>
       <td align="center">
-        <a href="https://github.com/elidianaandrade/dio-curso-git-github/blob/main/materiais-de-apoio/03-primeiros-passos-com-git-e-github.md">
+        <a href="https://github.com/Deivideazevedo/git/blob/main/ssh.md">
            <img align="center" alt="Material de Apoio" src="https://img.shields.io/badge/Ver%20Material-30A3DC?style=for-the-badge">
         </a>
       </td>    

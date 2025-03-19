@@ -37,14 +37,6 @@ Para criação e configuração da chave ssh da maquina e github
     cat ~/.ssh/id_ed25519.pub | clip
     ```
   
-
-1. #### Configurar VS Code como a ferramenta de diff do Git:
-    ```bash
-    git config --global diff.tool vscode
-    ```
-    ```bash
-    git config --global difftool.vscode.cmd "code --wait --diff \$LOCAL \$REMOTE"
-    ```
 1. **Adicionar a Chave SSH ao ssh-agent** para nao colocar a senha toda vez sempre que reiniciar o pc
     #### Inicie o ssh-agent em segundo plano:
     ```bash

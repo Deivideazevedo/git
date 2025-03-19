@@ -53,7 +53,7 @@ Para criação e configuração da chave ssh da maquina e github
     <br>
 ## Configurando key no github
 1. Vá para Configurações de SSH e GPG keys na sua conta do GitHub.
-2. Clique em "New SSH key" (Nova chave SSH), dê um título à chave e cole a chave SSH na caixa "Key".
+2. Clique em "New SSH key" (Nova chave SSH), dê um título à chave e cole a chave SSH *publica* na caixa "Key".
 3. Clique em "Add SSH key" (Adicionar chave SSH).
         
 
